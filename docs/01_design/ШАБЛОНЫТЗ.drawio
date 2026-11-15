@@ -1,6 +1,6 @@
 <mxfile host="Electron">
   <diagram name="Страница-1" id="SRpefrnhesu3D_WvLPWX">
-    <mxGraphModel dx="923" dy="867" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="944" dy="963" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -74,7 +74,7 @@
             <mxRectangle height="30" width="90" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="t2_r1_c4" parent="t2_r1" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;html=1;" value="" vertex="1">
+        <mxCell id="t2_r1_c4" parent="t2_r1" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;html=1;" value="not null" vertex="1">
           <mxGeometry height="30" width="370" x="290" as="geometry">
             <mxRectangle height="30" width="370" as="alternateBounds" />
           </mxGeometry>
@@ -258,7 +258,7 @@
             <mxRectangle height="30" width="90" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="t2_r9_c4" parent="t2_r9" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;html=1;" value="not null, check (file_sha256 ~ &#39;^[0-9A-Fa-f]{64}$&#39;)" vertex="1">
+        <mxCell id="t2_r9_c4" parent="t2_r9" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;html=1;" value="not null, check (file_sha256 ~ &#39;^[0-9a-f]{64}$&#39;)" vertex="1">
           <mxGeometry height="30" width="370" x="290" as="geometry">
             <mxRectangle height="30" width="370" as="alternateBounds" />
           </mxGeometry>
@@ -304,7 +304,7 @@
             <mxRectangle height="30" width="90" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="t2_r11_c4" parent="t2_r11" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;html=1;" value="not null, default &#39;A4&#39;" vertex="1">
+        <mxCell id="t2_r11_c4" parent="t2_r11" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;html=1;" value="not null, default &#39;A4&#39;, page_format in (&#39;A3&#39;, &#39;A4&#39;, &#39;A5&#39;))" vertex="1">
           <mxGeometry height="30" width="370" x="290" as="geometry">
             <mxRectangle height="30" width="370" as="alternateBounds" />
           </mxGeometry>
